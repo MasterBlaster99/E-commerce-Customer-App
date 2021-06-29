@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    >
+    <ImageView
+        android:id="@+id/displayImage"
+        android:layout_width="160dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="5dp"
+        android:layout_height="160dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        ></ImageView>
+    <TextView
+        android:id="@+id/textDisplayName"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/displayImage"
+        app:layout_constraintLeft_toRightOf="@id/displayImage"
+        android:layout_marginTop="45dp"
+        ></TextView>
+    <TextView
+        android:id="@+id/amount"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textDisplayName"
+        app:layout_constraintLeft_toRightOf="@id/displayImage"
+        android:layout_marginTop="5dp"
+        ></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="150dp"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:backgroundTint="@color/fui_transparent"-->
+<!--    >-->
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"></androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--        <ImageView-->
+<!--            android:id="@+id/displayImage"-->
+<!--            android:layout_width="170dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:src="@drawable/ic_baseline_error_24"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            app:layout_constraintTop_toTopOf="parent"></ImageView>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textDisplayName"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignTop="@+id/displayImage"-->
+<!--            android:layout_marginStart="22dp"-->
+<!--            android:layout_marginLeft="22dp"-->
+<!--            android:layout_marginTop="26dp"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginEnd="22dp"-->
+<!--            android:layout_marginRight="22dp"-->
+<!--            android:layout_toEndOf="@+id/displayImage"-->
+<!--            android:layout_toRightOf="@+id/displayImage"-->
+<!--            android:text="Line 2"-->
+<!--            android:textSize="20sp" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/amount"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_alignTop="@+id/textDisplayName"-->
+<!--            android:layout_marginStart="22dp"-->
+<!--            android:layout_marginLeft="22dp"-->
+<!--            android:layout_marginTop="26dp"-->
+<!--            android:layout_marginEnd="22dp"-->
+<!--            android:layout_marginRight="22dp"-->
+<!--            android:layout_toEndOf="@+id/displayImage"-->
+<!--            android:layout_toRightOf="@+id/textDisplayName"-->
+<!--            android:text="Line 2"-->
+<!--            android:textSize="20sp" />-->
+<!--    </RelativeLayout>-->
+<!--</androidx.cardview.widget.CardView>-->
