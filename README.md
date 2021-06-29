@@ -1,4 +1,5 @@
-An E-commerce App where users can buy products from different categories with multiple payment methods available 
+An E-commerce App where users can buy products from different categories with multiple payment methods available . 
+seller product for this app https://github.com/MasterBlaster99/E-commerce-Seller-App
 
 1 ) user can save the product for checkout
 
