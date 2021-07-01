@@ -1,3 +1,5 @@
+# Customer Shopping App
+
 An E-commerce App where users can buy products from different categories with multiple payment methods available . 
 seller product for this app https://github.com/MasterBlaster99/E-commerce-Seller-App
 
@@ -9,14 +11,8 @@ seller product for this app https://github.com/MasterBlaster99/E-commerce-Seller
 
 4 ) user can see all information of the product i.e : photos , details
 
-![mobiles](https://user-images.githubusercontent.com/71667923/123842454-6c157280-d92e-11eb-9430-e7003d93c903.jpeg)
+# Cash On Delivery 
+https://user-images.githubusercontent.com/71667923/124137525-61c8b500-daa3-11eb-857b-9c7faa8cf769.mp4
 
-![All](https://user-images.githubusercontent.com/71667923/123842397-5acc6600-d92e-11eb-9b4a-1e70bca2beb9.jpeg)
-
-![Laptops](https://user-images.githubusercontent.com/71667923/123842492-77689e00-d92e-11eb-95a8-e01552d8a9c9.jpeg)
-
-![MyOrders](https://user-images.githubusercontent.com/71667923/123842509-7e8fac00-d92e-11eb-81ca-0572e2c50e9b.jpeg)
-
-![Watches](https://user-images.githubusercontent.com/71667923/123842570-8c453180-d92e-11eb-892e-395f1e8913ed.jpeg)
-
-
+# Online Payment
+https://user-images.githubusercontent.com/71667923/124136008-fb8f6280-daa1-11eb-9050-f224ec1b63ec.mp4
